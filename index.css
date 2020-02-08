@@ -1,0 +1,56 @@
+body {
+  background-color: #273c75;
+  animation: fadeIn 0.5s linear;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+}
+.ddd {
+  cursor: pointer;
+}
+body {
+  color: white;
+}
+.clicked {
+  color: #2ecc71;
+}
+.form,
+.greetings {
+  display: none;
+}
+.showing {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+h1 {
+  font-size: 100px;
+}
+h4 {
+  font-size: 30px;
+}
+li {
+  font-size: 20px;
+}
+input {
+  width: 250px;
+  height: 40px;
+  text-align: center;
+}
